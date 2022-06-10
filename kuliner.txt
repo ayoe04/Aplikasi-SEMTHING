@@ -1,0 +1,180 @@
+Nama 
+Soto Bangkong
+
+Menu  
+Soto campur nasi : 17.600
+Soto Nasi Putih : 23.100
+Garang Asem : 22.000
+Menthok Semur : 17.600
+Ayam Goreng 1 Potong : 18.700
+Nasi + Ayam Goreng : 24.200
+Ayam Goreng 1 Ekor : 71.500
+Brutu :8.800
+Sayap : 8.800
+Sate Telur : 5.500
+Sate Ayam : 5.500
+Sate Ayam : 5.500
+Sate Kerang : 5.500
+Perkedel : 5.500
+Tempe : 4.400
+Kerupuk Rambak : 9.900
+Kerupuk Karak : 5.500
+Nasi Putih : 5.500
+Teh Tawar : 2.200
+Es Teh Tawar : 2.200
+Teh Manis Hangat :3.300
+Es The : 4.400
+Teh Botol : 4.400
+Jeruk Hangat : 7.700
+Es Jeruk Hangat : 8.800
+Kopi : 8.800
+Soda Gembira : 22.000
+
+Lokasi 
+Ruko Bangkong Plaza Block A/1, Jl Brigjen Katamso Semarang 50242
+
+Jam operasional 
+7.00 - 22.00
+
+Nama 
+Tahu Gimbal Pak Eddy
+
+Menu
+Satu porsi tahu gimbal : 20.000
+Wedang jeruk : 7.000
+Teh panas / dingin : 4.000
+Es durian : 25.000
+
+Lokasi 
+Jl. Pandanaran No.2, Mugassari, Kec. Semarang Sel., Kota Semarang,   Jawa Tengah 50249
+
+Jam operasional
+08.00 - 22.00
+
+Nama
+Tekodeko Koffiehuis
+
+Menu
+Kopi gendhis : 25.455,00
+Kopi Cheng Li : 25.455,00
+Kopi Londo : 25.455,00
+Kopi Kota Lama : 25.455,00
+Kopi Arab : 25.455,00
+Kopi Ayu : 27.300,00
+Chicken Mentai Rice : 31.000
+Salted Egg Chicken Rice : 31.000
+Chicken Fillet Sambal Bawang : 31.000
+Sunset Tea : 30.000
+Aprodhite : 28.000
+Lychee Tea : 25.000
+Sparkling Green : 28.000
+Strawberry Milk : 30.000
+Chocomint Delight : 30.000
+Es Kopi Cincau : 30.000
+Nasi Empal : 45.000
+Chicken Parmigiana : 38.000
+Americano : 26.000
+Kalosi Toraja : 33.000
+Gayo : 37.400
+Caffe Latte : 30.000
+Cappucino :30.000
+ Flat White : 30.000
+Mochaccino : 32.000
+Hazelnut Latte : 32.000
+Vanilla Latte : 32.000
+Caramel Latte : 32.000
+Vanilla Frappe : 34.000
+Chocochip Blend : 34.000
+Caffe Frappe : 32.000
+Caramel Frappe : 34.000
+Strawberry Shocking : 32.000
+Hazelnut Frappe :34.000
+Special Bucket : 32.000
+Chicken Bites : 34.000
+Potato wedges : 26.000
+French fries : 26.000
+Mac and cheese : 36.000
+Crispy chicken carbonara : 37.000
+Smoke beef aglio olio : 29.000
+Tekodeko fried rice : 31.000
+Dori sambal bawang :31.000
+Bbq chicken katsu : 29.000
+
+Lokasi
+Kota Lama, Jl. Letjen Suprapto No.44, Tj. Mas, Kec. Semarang Utara, Kota Semarang, Jawa Tengah 50174
+
+
+Nama 
+Kampung Laut 
+
+Menu
+Gurame goreng : 7.500/ons
+Gurame bakar madu : 7.500/ons
+Gurame steam : 8.000/ons
+Gurame tauco : 8.000/ons
+Gurame tahu : 8.000/ons
+Gurame asam manis : 8.000/ons
+Gurame acar kuning : 8.000/ons
+sop Gurame : 8.000/ons
+Gurame steams saus : 8.000/ons
+Gurame bumbu rujak : 8.000/ons
+Gurame goreng telur asin : 8.000/ons
+Gurame thailand : 8.000/ons
+Gurame saus hawai : 8.000/ons
+Gurame saus strawberry : 8.000/ons
+Gurame pecah : 8.000/ons
+Bandeng bakar : 5.500/ons
+Bandeng goreng : 5.500/ons
+Bandeng saus spesial : 5.500/ons
+Bandeng asam manis : 5.500/ons
+Bandeng saus inggris : 5.500/ons
+Bandeng steam : 5.500/ons
+Bandeng acar kuning : 5.500/ons
+Bandeng krupuk : 5.500/ons
+Bandeng bumbu rujak : 5.500/ons
+Bandeng pepes : 5.500/ons
+Kerapu goreng : 27.500/ons
+Kerapu goreng kecap : 27.500/ons
+Kerapu bakar : 27.500/ons
+Kerapu asam manis : 27.500/ons
+Kerapu bawang putih : 27.500/ons
+Kerapu saus kecap : 27.500/ons
+Kerapu saus thailand : 27.500/ons
+Kerapu steam : 27.500/ons
+Kerapu pepes : 27.500/ons
+Brokoli abalon : 50.000
+Brokoli salju : 32.000
+Taoge ca ikan asin : 25.000
+Brokoli ca ayam/udang/sapi : 32.000
+Brokoli ca bawang putih : 22.000
+Brokoli ca scallop : 36.000
+Baby buncis eby : 30.000
+Baby buncis goreng daging sapi : 30.000
+Baby kailan ca ayam/sapi/udang : 32.500
+baby ca bawang putih : 32.500
+kailan ca sapi : 32.500
+kailan ca ayam : 32.500
+kailan saus tiram : 32.500
+kailan ca bawang putih : 27.500
+kailan 2 rasa : 25.000
+Pwe ling ca bawang putih : 22.500
+Pwe ling ca ayam/sapi/udang : 32.500
+sawi wangi ca bawang putih/saus tiram : 22.500
+sawi wangi ca ayam/sapi/udang : 32.500
+jamur shimeji goreng bawang : 30.000
+jamur shimeji goreng garam : 25.000
+angsio jamur shimeji : 35.000
+kuah ayam jamur shimeji : 37.500
+sayur genjer ca ebi : 30.000
+baby kangkung bawang putih : 17.500
+baby kailan bawang putih : 17.500
+baby pakcoy bawang putih 17.500
+baby pakcoy putih bawang putih : 17.500
+
+lokasi : 
+Puri Maerokoco Tawang Mas, Jl. Anjasmoro Raya, Tawangsari, Kec. Semarang Barat, Kota Semarang, Jawa Tengah 50144
+
+jam operasional : 
+11.00-22.00
+
+      

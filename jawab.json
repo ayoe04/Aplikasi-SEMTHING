@@ -1,0 +1,123 @@
+{
+    "intents": [{
+            "tag": "kata pembuka",
+            "patterns": ["hai", "hello","haloo","yaw","wassup", "hi", "hey", "holla", "hello"],
+            "responses": ["hello selamat datang", "hi ada yang bisa dibantu?", "halo anda membutuhkan apa?"],
+            "context": [""]
+        },
+        {
+            "tag": "kata penutup",
+            "patterns": ["bye", "good bye", "sampai jumpa", "sudah selesai"],
+            "responses": ["have a nice time, welcome back again", "bye bye", "sampai jumpa kembali"],
+            "context": [""]
+        },
+        {
+            "tag": "tempat wisata",
+            "patterns": ["tempat wisata", "wisata", "Tempat Wisata"],
+            "responses": ["List Tempat Wisata : <br> 1. Lawang Sewu <br> 2. SAM POO KONG <br> 3. Kota Lama Semarang <br> 4. Kampung Pelangi <br> 5. Pagoda Avalokitesvara <br> 6. Tugu Muda Semarang <br> 7. Puri Maerokoco <br> 8. Old City 3D Trick Art Museum Semarang"],
+            "context": [""]
+        },
+        {
+            "tag": "deskripsi lawang sewu",
+            "patterns": ["lawang sewu", "seberang tugu muda", "tempat wisata,"],
+            "responses": ["Lawang Sewu adalah bangunan perkantoran yang terletak di seberang Tugu Muda, Kota Semarang, Jawa Tengah, Indonesia, yang dibangun sebagai kantor pusat Nederlandsch-Indische Spoorweg Maatschappij. Bangunan ini berstatus sebagai aset Kereta Api Indonesia karena merupakan buah dari perebutan NIS oleh Djawatan Kereta Api Republik Indonesia pada masa Perang Kemerdekaan. Saat ini bangunan tersebut dijadikan sebagai museum dan galeri sejarah perkeretaapian oleh Unit Pusat Pelestarian dan Desain Arsitektur dan KAI Wisata."],
+            "context": [""]
+        },
+        {
+            "tag": "deskripsi sam poo kong",
+            "patterns": ["sam poo kong"],
+            "responses": ["Kelenteng Gedung Kuno Sam Poo Tong yaitu bekas tempat persinggahan dan pendaratan pertama seorang Laksamana Tiongkok beragama Islam yang bernama Zheng He/Cheng Ho. Tidak semua anak buah kapal beragama Islam. Kompleks Sam Po Tong berada di daerah Simongan, sebelah barat daya Kota Semarang. Tanda yang menunjukan sebagai bekas petilasan yang berciri keislaman dengan ditemukannya tulisan berbunyi 'Marilah kita mengheningkan cipta dengan mendengarkan bacaan Al Qur'an'. Kelenteng ini disebut Gedung Batu karena bentuknya merupakan gua batu besar yang berada di sebuah bukit batu. Untuk mengenang Zheng He, masyarakat Indonesia keturunan Tionghoa membangun sebuah kelenteng. Sekarang tempat ini dijadikan tempat peringatan dan pemujaan atau bersembahyang serta tempat untuk berziarah. Untuk keperluan tersebut, di dalam gua batu itu diletakkan sebuah altar serta patung-patung Sam Po Tay Djien. Meskipun Laksamana Cheng Ho adalah seorang muslim, tetapi masyarakat menganggapnya sebagai dewa. Hal ini dapat dimaklumi mengingat agama Konghucu atau Taoisme menganggap orang yang sudah meninggal dapat memberikan pertolongan kepada mereka."],
+            "context": [""]
+        },
+        {
+            "tag": "deskripsi Kota Lama Seamrang",
+            "patterns": ["kota lama semarang", "kota lama"],
+            "responses": ["Kota Lama Semarang adalah suatu kawasan di Semarang yang menjadi pusat perdagangan pada abad 19-20. Pada masa itu, untuk mengamankan warga dan wilayahnya, kawasan itu dibangun benteng, yang dinamai benteng Vijfhoek"],
+            "context": [""]
+        },
+        {
+            "tag": "deskripsi kampung pelangi",
+            "patterns": ["kampung pelangi"],
+            "responses": ["Desa yang terkenal dengan inisiatif pelestarian & lebih dari 200 rumah bergambar pelangi."],
+            "context": [""]
+        },
+        {
+            "tag": "deskripsi Pagoda Avalokitesvara",
+            "patterns": ["Pagoda Avalokitesvara"],
+            "responses": ["Situs umat Buddha populer, dengan pagoda setinggi 45 m yang terkenal, dengan 7 tingkat berukir rumit."],
+            "context": [""]
+        },
+        {
+            "tag": "deskripsi Tugu muda semarang",
+            "patterns": ["tugu muda", "tugu muda semarang"],
+            "responses": ["Tugu Muda adalah sebuah monumen yang dibuat untuk mengenang jasa-jasa para pahlawan yang telah gugur dalam Pertempuran Lima Hari di Semarang. Monumen ini terletak di Jalan Nasional Rute 20 yang mengarah ke Solo"],
+            "context": [""]
+        },
+        {
+            "tag": "deskripsi Puri Maerokoco",
+            "patterns": ["Puri Maerokoco"],
+            "responses": ["Puri Maerokoco atau sering disebut Taman Mini Jawa Tengah Indah adalah sebuah objek wisata yang berada di Jalan Yos Sudarso Semarang kurang lebih 5 Km dari Tugu Muda, adalah salah satu bagian taman dari kawasan PRPP Jawa Tengah."],
+            "context": [""]
+        },
+        {
+            "tag": "deskripsi Old City 3D Trick Art Museum Semarang",
+            "patterns": ["Old City 3D Trick Art Museum Semarang"],
+            "responses": ["Objek wisata foto dengan latar belakang seru, mulai dari ilusi optik hingga bangunan terkenal di seluruh dunia"],
+            "context": [""]
+        },
+        {
+            "tag": "harga lawang sewu",
+            "patterns": ["harga lawang sewu", "tiket lawang sewu"],
+            "responses": ["Tiket masuk lawang sewu Rp 20.000"],
+            "context": [""]
+        },
+        {
+            "tag": "harga sam poo kong",
+            "patterns": ["harga sam poo kong", "tiket sam poo kong"],
+            "responses": ["Tiket masuk sam poo kong Rp 10.000"],
+            "context": [""]
+        },
+        {
+            "tag": "jam lawang sewu",
+            "patterns": ["jam buka lawang sewu", "jam tutup lawang sewu", "lawang sewu buka jam berapa?", "lawang sewu tutup jam berapa?"],
+            "responses": ["lawang sewu buka jam 07.00 dan tutup jam 21.00"],
+            "context": [""]
+        },
+        {
+            "tag": "jam sam poo kong",
+            "patterns": ["jam buka sam poo kong", "jam tutup sam poo kong", "sam poo kong buka jam berapa?", "sam poo kong tutup jam berapa?"],
+            "responses": ["sam poo kong buka jam 08.00 dan tutup jam 20.00"],
+            "context": [""]
+        },
+        {
+            "tag": "alamat lawang sewu",
+            "patterns": ["alamat lawang sewu", "lokasi lawang sewu", "tempat lawang sewu"],
+            "responses": ["Jl. Pemuda, Sekayu, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah"],
+            "context": [""]
+        },
+        {
+            "tag": "alamat sam poo kong",
+            "patterns": ["alamat sam poo kong", "lokasi sam poo kong", "tempat sam poo kong"],
+            "responses": ["Klenteng Sam Po Kong, Bongsari, Kec. Semarang Barat, Kota Semarang, Jawa Tengah"],
+            "context": [""]
+        },
+        {
+            "tag": "terimakasih",
+            "patterns": ["Thanks", "okay","Thank you","thankyou", "That's helpful", "Awesome, thanks", "Thanks for helping me", "wow", "great", "terimakasih", "makasih"],
+            "responses": ["Happy to help!", "Any time!","you're welcome", "My pleasure", "sama-sama"],
+            "context": [""]
+        },
+        {
+            "tag": "tidak ada jawaban",
+            "patterns": [""],
+            "responses": ["Sorry, I didn't understand you", "Please give me more info", "Not sure I understand that", "maaf bisa anda ulangi pertanyaan nya"],
+            "context": [""]
+        },
+        {
+            "tag": "bantuan",
+            "patterns": ["I need you", "All I need is you","I want you", "bantuan", "butuh bantuan"],
+            "responses": ["Yes I'm here to assist you", "Ya, ada yang bisa dibantu?"],
+            "context": [""]
+        }
+    ]
+}
