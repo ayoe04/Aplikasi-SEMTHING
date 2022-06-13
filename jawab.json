@@ -1,0 +1,439 @@
+{
+    "intents": [{
+            "tag": "kata pembuka",
+            "patterns": ["hai", "hello","haloo","yaw","wassup", "hi", "hey", "holla", "hello"],
+            "responses": ["hello selamat datang", "hi ada yang bisa dibantu?", "halo anda membutuhkan apa?"],
+            "context": [""]
+        },
+        {
+            "tag": "kata penutup",
+            "patterns": ["bye", "good bye", "sampai jumpa", "sudah selesai"],
+            "responses": ["have a nice time, welcome back again", "bye bye", "sampai jumpa kembali"],
+            "context": [""]
+        },
+        {
+            "tag": "tempat wisata",
+            "patterns": ["tempat wisata", "wisata", "Tempat Wisata"],
+            "responses": ["List Tempat Wisata : <br> 1. Lawang Sewu <br> 2. SAM POO KONG <br> 3. Kota Lama Semarang <br> 4. Kampung Pelangi <br> 5. Pagoda Avalokitesvara <br> 6. Tugu Muda Semarang <br> 7. Puri Maerokoco <br> 8. Old City 3D Trick Art Museum Semarang"],
+            "context": [""]
+        },
+        {
+            "tag": "deskripsi lawang sewu",
+            "patterns": ["lawang sewu", "seberang tugu muda", "tempat wisata,"],
+            "responses": ["Lawang Sewu adalah bangunan perkantoran yang terletak di seberang Tugu Muda, Kota Semarang, Jawa Tengah, Indonesia, yang dibangun sebagai kantor pusat Nederlandsch-Indische Spoorweg Maatschappij. Bangunan ini berstatus sebagai aset Kereta Api Indonesia karena merupakan buah dari perebutan NIS oleh Djawatan Kereta Api Republik Indonesia pada masa Perang Kemerdekaan. Saat ini bangunan tersebut dijadikan sebagai museum dan galeri sejarah perkeretaapian oleh Unit Pusat Pelestarian dan Desain Arsitektur dan KAI Wisata."],
+            "context": [""]
+        },
+        {
+            "tag": "deskripsi sam poo kong",
+            "patterns": ["sam poo kong"],
+            "responses": ["Kelenteng Gedung Kuno Sam Poo Tong yaitu bekas tempat persinggahan dan pendaratan pertama seorang Laksamana Tiongkok beragama Islam yang bernama Zheng He/Cheng Ho. Tidak semua anak buah kapal beragama Islam. Kompleks Sam Po Tong berada di daerah Simongan, sebelah barat daya Kota Semarang. Tanda yang menunjukan sebagai bekas petilasan yang berciri keislaman dengan ditemukannya tulisan berbunyi 'Marilah kita mengheningkan cipta dengan mendengarkan bacaan Al Qur'an'. Kelenteng ini disebut Gedung Batu karena bentuknya merupakan gua batu besar yang berada di sebuah bukit batu. Untuk mengenang Zheng He, masyarakat Indonesia keturunan Tionghoa membangun sebuah kelenteng. Sekarang tempat ini dijadikan tempat peringatan dan pemujaan atau bersembahyang serta tempat untuk berziarah. Untuk keperluan tersebut, di dalam gua batu itu diletakkan sebuah altar serta patung-patung Sam Po Tay Djien. Meskipun Laksamana Cheng Ho adalah seorang muslim, tetapi masyarakat menganggapnya sebagai dewa. Hal ini dapat dimaklumi mengingat agama Konghucu atau Taoisme menganggap orang yang sudah meninggal dapat memberikan pertolongan kepada mereka."],
+            "context": [""]
+        },
+        {
+            "tag": "deskripsi Kota Lama Seamrang",
+            "patterns": ["kota lama semarang", "kota lama"],
+            "responses": ["Kota Lama Semarang adalah suatu kawasan di Semarang yang menjadi pusat perdagangan pada abad 19-20. Pada masa itu, untuk mengamankan warga dan wilayahnya, kawasan itu dibangun benteng, yang dinamai benteng Vijfhoek"],
+            "context": [""]
+        },
+        {
+            "tag": "deskripsi kampung pelangi",
+            "patterns": ["kampung pelangi"],
+            "responses": ["Desa yang terkenal dengan inisiatif pelestarian & lebih dari 200 rumah bergambar pelangi."],
+            "context": [""]
+        },
+        {
+            "tag": "deskripsi Pagoda Avalokitesvara",
+            "patterns": ["Pagoda Avalokitesvara"],
+            "responses": ["Situs umat Buddha populer, dengan pagoda setinggi 45 m yang terkenal, dengan 7 tingkat berukir rumit."],
+            "context": [""]
+        },
+        {
+            "tag": "deskripsi Tugu muda semarang",
+            "patterns": ["tugu muda", "tugu muda semarang"],
+            "responses": ["Tugu Muda adalah sebuah monumen yang dibuat untuk mengenang jasa-jasa para pahlawan yang telah gugur dalam Pertempuran Lima Hari di Semarang. Monumen ini terletak di Jalan Nasional Rute 20 yang mengarah ke Solo"],
+            "context": [""]
+        },
+        {
+            "tag": "deskripsi Puri Maerokoco",
+            "patterns": ["Puri Maerokoco"],
+            "responses": ["Puri Maerokoco atau sering disebut Taman Mini Jawa Tengah Indah adalah sebuah objek wisata yang berada di Jalan Yos Sudarso Semarang kurang lebih 5 Km dari Tugu Muda, adalah salah satu bagian taman dari kawasan PRPP Jawa Tengah."],
+            "context": [""]
+        },
+        {
+            "tag": "deskripsi Old City 3D Trick Art Museum Semarang",
+            "patterns": ["Old City 3D Trick Art Museum Semarang"],
+            "responses": ["Objek wisata foto dengan latar belakang seru, mulai dari ilusi optik hingga bangunan terkenal di seluruh dunia"],
+            "context": [""]
+        },
+        {
+            "tag": "harga lawang sewu",
+            "patterns": ["harga lawang sewu", "tiket lawang sewu"],
+            "responses": ["Tiket masuk lawang sewu Rp 20.000"],
+            "context": [""]
+        },
+        {
+            "tag": "harga sam poo kong",
+            "patterns": ["harga sam poo kong", "tiket sam poo kong"],
+            "responses": ["Tiket masuk sam poo kong Rp 10.000"],
+            "context": [""]
+        },
+        {
+            "tag": "jam lawang sewu",
+            "patterns": ["jam buka lawang sewu", "jam tutup lawang sewu", "lawang sewu buka jam berapa?", "lawang sewu tutup jam berapa?"],
+            "responses": ["lawang sewu buka jam 07.00 dan tutup jam 21.00"],
+            "context": [""]
+        },
+        {
+            "tag": "jam sam poo kong",
+            "patterns": ["jam buka sam poo kong", "jam tutup sam poo kong", "sam poo kong buka jam berapa?", "sam poo kong tutup jam berapa?"],
+            "responses": ["sam poo kong buka jam 08.00 dan tutup jam 20.00"],
+            "context": [""]
+        },
+        {
+            "tag": "alamat lawang sewu",
+            "patterns": ["alamat lawang sewu", "lokasi lawang sewu", "tempat lawang sewu"],
+            "responses": ["Jl. Pemuda, Sekayu, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah"],
+            "context": [""]
+        },
+        {
+            "tag": "alamat sam poo kong",
+            "patterns": ["alamat sam poo kong", "lokasi sam poo kong", "tempat sam poo kong"],
+            "responses": ["Klenteng Sam Po Kong, Bongsari, Kec. Semarang Barat, Kota Semarang, Jawa Tengah"],
+            "context": [""]
+        },
+        {
+            "tag": "terimakasih",
+            "patterns": ["Thanks", "okay","Thank you","thankyou", "That's helpful", "Awesome, thanks", "Thanks for helping me", "wow", "great", "terimakasih", "makasih"],
+            "responses": ["Happy to help!", "Any time!","you're welcome", "My pleasure", "sama-sama"],
+            "context": [""]
+        },
+        {
+            "tag": "tidak ada jawaban",
+            "patterns": [""],
+            "responses": ["Sorry, I didn't understand you", "Please give me more info", "Not sure I understand that", "maaf bisa anda ulangi pertanyaan nya"],
+            "context": [""]
+        },
+        {
+            "tag": "bantuan",
+            "patterns": ["I need you", "All I need is you","I want you", "bantuan", "butuh bantuan"],
+            "responses": ["Yes I'm here to assist you", "Ya, ada yang bisa dibantu?"],
+            "context": [""]
+        },
+        {
+            "tag": "menu soto bangkong",
+            "patterns": ["menu di soto bangkong","menu soto bangkong"],
+            "responses": ["Menu <br> Soto campur nasi : 17.600 <br> Soto Nasi Putih : 23.100 <br> Garang Asem : 22.000 <br> Menthok Semur : 17.600 <br> Ayam Goreng 1 Potong : 18.700 <br> Nasi + Ayam Goreng : 24.200 <br> Ayam Goreng 1 Ekor : 71.500 <br> Brutu :8.800 <br> Sayap : 8.800 <br> Sate Telur : 5.500 <br> Sate Ayam : 5.500 <br> Sate Ayam : 5.500 <br> Sate Kerang : 5.500 <br> Perkedel : 5.500 <br> Tempe : 4.400 <br> Kerupuk Rambak : 9.900 <br> Kerupuk Karak : 5.500 <br> Nasi Putih : 5.500 <br> Teh Tawar : 2.200 <br> Es Teh Tawar : 2.200 <br> Teh Manis Hangat :3.300 <br> Es The : 4.400 <br> Teh Botol : 4.400 <br> Jeruk Hangat : 7.700 <br> Es Jeruk Hangat : 8.800 <br> Kopi : 8.800 <br> Soda Gembira : 22.000"],
+            "context": [""]
+        },
+        {
+            "tag": "soto bangkong",
+            "patterns": ["soto bangkong"],
+            "responses": ["Deskripsi : Soto Bangkong berdiri sejak enam dekade yang lalu. Nama soto ayam khas semarang ini diambil dari nama perempatan jalan tempat waktu soto ini berdiri, konon katanya diperempatan ini banyak terdapat bangkong. Soto bangkong ini memiliki rasa yang cukup authentic dengan kekhasan dari kota semarang. <br> Menu <br> Soto campur nasi : 17.600 <br> Soto Nasi Putih : 23.100 <br> Garang Asem : 22.000 <br> Menthok Semur : 17.600 <br> Ayam Goreng 1 Potong : 18.700 <br> Nasi + Ayam Goreng : 24.200 <br> Ayam Goreng 1 Ekor : 71.500 <br> Brutu :8.800 <br> Sayap : 8.800 <br> Sate Telur : 5.500 <br> Sate Ayam : 5.500 <br> Sate Ayam : 5.500 <br> Sate Kerang : 5.500 <br> Perkedel : 5.500 <br> Tempe : 4.400 <br> Kerupuk Rambak : 9.900 <br> Kerupuk Karak : 5.500 <br> Nasi Putih : 5.500 <br> Teh Tawar : 2.200 <br> Es Teh Tawar : 2.200 <br> Teh Manis Hangat :3.300 <br> Es The : 4.400 <br> Teh Botol : 4.400 <br> Jeruk Hangat : 7.700 <br> Es Jeruk Hangat : 8.800 <br> Kopi : 8.800 <br> Soda Gembira : 22.000 <br> Lokasi : Ruko Bangkong Plaza Block A/1, Jl Brigjen Katamso Semarang 50242 <br> Jam Operasional : Setiap hari mulai pukul 7.00 - 22.00 WIB"],
+            "context": [""]
+        },
+        {
+            "tag": "lokasi soto bangkong",
+            "patterns": ["tempat soto bangkong", "lokasi soto bangkong"],
+            "responses": ["Ruko Bangkong Plaza Block A/1, Jl Brigjen Katamso Semarang 50242"],
+            "context": [""]
+        },
+        {
+            "tag": "jam operasional soto bangkong",
+            "patterns": ["jam buka soto bangkong", "jam operasional soto bangkong"],
+            "responses": ["Setiap hari mulai pukul 7.00 - 22.00 WIB"],
+            "context": [""]
+        },
+        {
+            "tag": "tahu gimbal pak eddy",
+            "patterns": ["tahu gimbal pak eddy"],
+            "responses": ["Deskripsi : Tahu gimbal adalah salah satu kuliner khas semarang yang harus kamu kunjungi ketika ada di kota ini. Makanan ini sudah ada sejak zaman penjajahan yang terdiri dari berbagai macam isi yaitu tahu goreng yang dipotong dadu, kol dan taburan bawang goreng diatasnya. Serta tidak lupa isian utamanya yaitu gimbal, udang bertepung yang memiliki ukuran cukup lebar lalu nanti akan digoreng sampai matang dan disantap dengan nasi atau lontong. <br> Menu <br> Satu porsi tahu gimbal : 20.000 <br> Wedang jeruk : 7.000 <br> Teh panas / dingin : 4.000 <br> Es durian : 25.000 <br> Lokasi : Jl. Pandanaran No.2, Mugassari, Kec. Semarang Sel., Kota Semarang, Jawa Tengah 50249 <br> Jam Operasional : Setiap Hari mulai pukul 08.00 - 22.00 WIB"],
+            "context": [""]
+        },
+        {
+            "tag": "menu tahu gimbal pak eddy",
+            "patterns": ["menu di tahu gimbal pak eddy", "menu tahu gimbal pak eddy"],
+            "responses": ["Menu <br> Satu porsi tahu gimbal : 20.000 <br> Wedang jeruk : 7.000 <br> Teh panas / dingin : 4.000 <br> Es durian : 25.000"],
+            "context": [""]
+        },
+        {
+            "tag": "lokasi tahu gimbal pak eddy",
+            "patterns": ["alamat tahu gimbal pak eddy", "lokasi tahu gimbal pak eddy"],
+            "responses": ["Jl. Pandanaran No.2, Mugassari, Kec. Semarang Sel., Kota Semarang, Jawa Tengah 50249"],
+            "context": [""]
+        },
+        {
+            "tag": "jam operasional tahu gimbal pak eddy",
+            "patterns": ["jam buka tahu gimbal pak eddy", "jam operasional tahu gimbal pak eddy"],
+            "responses": ["Setiap Hari mulai pukul 08.00 - 22.00 WIB"],
+            "context": [""]
+        },
+        {
+            "tag": "tekodeko koffiehuis",
+            "patterns": ["tekodeko koffihuis"],
+            "responses": ["Deskripsi : Cafe yang didirikan pada tahun 2015 ini, memiliki suasana yang nyaman untuk kamu yang sedang ingin menikmati indahnya kota lama semarang. Cafe Tekodeko koffiehuis cukup mudah kamu temui yaitu tepat berada di seberang polsek semarang utara. jadi untuk kamu yang ingin menghabiskan waktu bersama teman-teman atau keluarga di kota lama semarang bisa menikmati kopi di cafe ini. <br> Menu : <br> Kopi gendhis = 25.455 <br> Kopi Cheng Li = 25.455 <br> Kopi Londo = 25.455 <br> Kopi Kota Lama = 25.455 <br> Kopi Arab = 25.455 <br> Kopi Ayu = 27.300 <br> Chicken Mentai Rice = 31.000 <br> Salted Egg Chicken Rice = 31.000 <br> Chicken Fillet Sambal Bawang = 31.000 <br> Sunset Tea = 30.000 <br> Aprodhite = 28.000 <br> Lychee Tea = 25.000 <br> Sparkling Green = 28.000 <br> Strawberry Milk = 30.000 <br> Chocomint Delight = 30.000 <br> Es Kopi Cincau = 30.000 <br> Nasi Empal = 45.000 <br> Chicken Parmigiana = 38.000 <br> Americano = 26.000 <br> Kalosi Toraja = 33.000 <br> Gayo = 37.400 <br> Caffe Latte = 30.000 <br> Cappucino = 30.000 <br> Flat White = 30.000 <br> Mochaccino = 32.000 <br> Hazelnut Latte = 32.000 <br> Vanilla Latte = 32.000 <br> Caramel Latte = 32.000 <br> Vanilla Frappe = 34.000 <br> Chocochip Blend = 34.000 <br> Caffe Frappe = 32.000 <br> Caramel Frappe = 34.000 <br> Strawberry Shocking = 32.000 <br> Hazelnut Frappe = 34.000 <br> Special Bucket = 32.000 <br> Chicken Bites = 34.000 <br> Potato wedges = 26.000 <br> French fries = 26.000 <br> Mac and cheese = 36.000 <br> Crispy chicken carbonara = 37.000 <br> Smoke beef aglio olio = 29.000 <br> Tekodeko fried rice = 31.000 <br> Dori sambal bawang = 31.000 <br> Bbq chicken katsu = 29.000 <br> Lokasi : Kota Lama, Jl. Letjen Suprapto No.44, Tj. Mas, Kec. Semarang Utara, Kota Semarang, Jawa Tengah 50174 <br> Jam Operasional : Setiap Hari mulai pukul 09.00-22.00 WIB"],
+            "context": [""]
+        },
+        {
+            "tag": "menu tekodeko koffiehuis",
+            "patterns": ["menu di tekodeko koffiehuis", "menu tekodeko koffiehuis"],
+            "responses": ["Menu : <br> Kopi gendhis = 25.455 <br> Kopi Cheng Li = 25.455 <br> Kopi Londo = 25.455 <br> Kopi Kota Lama = 25.455 <br> Kopi Arab = 25.455 <br> Kopi Ayu = 27.300 <br> Chicken Mentai Rice = 31.000 <br> Salted Egg Chicken Rice = 31.000 <br> Chicken Fillet Sambal Bawang = 31.000 <br> Sunset Tea = 30.000 <br> Aprodhite = 28.000 <br> Lychee Tea = 25.000 <br> Sparkling Green = 28.000 <br> Strawberry Milk = 30.000 <br> Chocomint Delight = 30.000 <br> Es Kopi Cincau = 30.000 <br> Nasi Empal = 45.000 <br> Chicken Parmigiana = 38.000 <br> Americano = 26.000 <br> Kalosi Toraja = 33.000 <br> Gayo = 37.400 <br> Caffe Latte = 30.000 <br> Cappucino = 30.000 <br> Flat White = 30.000 <br> Mochaccino = 32.000 <br> Hazelnut Latte = 32.000 <br> Vanilla Latte = 32.000 <br> Caramel Latte = 32.000 <br> Vanilla Frappe = 34.000 <br> Chocochip Blend = 34.000 <br> Caffe Frappe = 32.000 <br> Caramel Frappe = 34.000 <br> Strawberry Shocking = 32.000 <br> Hazelnut Frappe = 34.000 <br> Special Bucket = 32.000 <br> Chicken Bites = 34.000 <br> Potato wedges = 26.000 <br> French fries = 26.000 <br> Mac and cheese = 36.000 <br> Crispy chicken carbonara = 37.000 <br> Smoke beef aglio olio = 29.000 <br> Tekodeko fried rice = 31.000 <br> Dori sambal bawang = 31.000 <br> Bbq chicken katsu = 29.000"],
+            "context": [""]
+        },
+        {
+            "tag": "lokasi taekodeko koffiehuis",
+            "patterns": ["alamat tekodeko koffiehuis", "lokasi tekodeko koffiehuis"],
+            "responses": ["Kota Lama, Jl. Letjen Suprapto No.44, Tj. Mas, Kec. Semarang Utara, Kota Semarang, Jawa Tengah 50174"],
+            "context": [""]
+        },
+        {
+            "tag": "jam operasional tekodeko koffiehuis",
+            "patterns": ["jam buka tekodeko koffiehuis", "jam operasional tekodeko koffiehuis"],
+            "responses": ["Setiap Hari mulai pukul 09.00-22.00 WIB"],
+            "context": [""]
+        },
+        {
+            "tag": "kampung laut",
+            "patterns": ["kampung laut"],
+            "responses": ["Deskripsi : Restoran Kampung laut merupakan sebuah resto yang menyediakan berbagai macam olahan laut yang nikmat. Selain itu, resto ini menawarkan suasana yang nyaman karena terdapat area makan outdoor sehingga bisa menikmati udara kota semarang, memiliki area indoor, area parkir yang luas, meeting room, tempat ibadah, galeri batik, toilet, dan sebagainya. <br> Menu : <br> Gurame goreng = 7.500/ons <br> Gurame bakar madu = 7.500/ons <br> Gurame steam = 8.000/ons <br> Gurame tauco = 8.000/ons <br> Gurame tahu = 8.000/ons <br> Gurame asam manis = 8.000/ons <br> Gurame acar kuning = 8.000/ons <br> Sop Gurame = 8.000/ons <br> Gurame steams saus = 8.000/ons <br> Gurame bumbu rujak = 8.000/ons <br> Gurame goreng telur asin = 8.000/ons <br> Gurame thailand = 8.000/ons <br> Gurame saus hawai = 8.000/ons <br> Gurame saus strawberry = 8.000/ons <br> Gurame pecah = 8.000/ons <br> Bandeng bakar = 5.500/ons <br> Bandeng goreng = 5.500/ons <br> Bandeng saus spesial = 5.500/ons <br> Bandeng asam manis = 5.500/ons <br> Bandeng saus inggris = 5.500/ons <br> Bandeng steam = 5.500/ons <br> Bandeng acar kuning = 5.500/ons <br> Bandeng krupuk = 5.500/ons <br> Bandeng bumbu rujak = 5.500/ons <br> Bandeng pepes = 5.500/ons <br> Kerapu goreng = 27.500/ons <br> Kerapu goreng kecap = 27.500/ons <br> Kerapu bakar = 27.500/ons <br> Kerapu asam manis = 27.500/ons <br> Kerapu bawang putih = 27.500/ons <br> Kerapu saus kecap = 27.500/ons <br> Kerapu saus thailand = 27.500/ons <br> Kerapu steam = 27.500/ons <br> Kerapu pepes = 27.500/ons <br> Brokoli abalon = 50.000 <br> Brokoli salju = 32.000 <br> Taoge ca ikan asin = 25.000 <br> Brokoli ca ayam/udang/sapi = 32.000 <br> Brokoli ca bawang putih = 22.000 <br> Brokoli ca scallop = 36.000 <br> Baby buncis eby = 30.000 <br> Baby buncis goreng daging sapi = 30.000 <br> Baby kailan ca ayam/sapi/udang = 32.500 <br> baby ca bawang putih = 32.500 <br> kailan ca sapi = 32.500 <br> kailan ca ayam = 32.500 <br> kailan saus tiram = 32.500 <br> kailan ca bawang putih = 27.500 <br> kailan 2 rasa = 25.000 <br> Pwe ling ca bawang putih = 22.500 <br> Pwe ling ca ayam/sapi/udang = 32.500 <br> sawi wangi ca bawang putih/saus tiram = 22.500 <br> sawi wangi ca ayam/sapi/udang = 32.500 <br> jamur shimeji goreng bawang = 30.000 <br> jamur shimeji goreng garam = 25.000 <br> angsio jamur shimeji = 35.000 <br> kuah ayam jamur shimeji = 37.500 <br> sayur genjer ca ebi = 30.000 <br> baby kangkung bawang putih = 17.500 <br> baby kailan bawang putih = 17.500 <br> baby pakcoy bawang putih = 17.500 <br> baby pakcoy putih bawang putih = 17.500 <br> Lokasi : Puri Maerokoco Tawang Mas, Jl. Anjasmoro Raya, Tawangsari, Kec. Semarang Barat, Kota Semarang, Jawa Tengah 50144 <br> Jam Operasional : Setiap Hari mulai pukul 11.00-22.00 WIB"],
+            "context": [""]
+        },
+        {
+            "tag": "menu kampung laut",
+            "patterns": ["menu di kampung laut", "menu kampung laut"],
+            "responses": ["Menu : <br> Gurame goreng = 7.500/ons <br> Gurame bakar madu = 7.500/ons <br> Gurame steam = 8.000/ons <br> Gurame tauco = 8.000/ons <br> Gurame tahu = 8.000/ons <br> Gurame asam manis = 8.000/ons <br> Gurame acar kuning = 8.000/ons <br> Sop Gurame = 8.000/ons <br> Gurame steams saus = 8.000/ons <br> Gurame bumbu rujak = 8.000/ons <br> Gurame goreng telur asin = 8.000/ons <br> Gurame thailand = 8.000/ons <br> Gurame saus hawai = 8.000/ons <br> Gurame saus strawberry = 8.000/ons <br> Gurame pecah = 8.000/ons <br> Bandeng bakar = 5.500/ons <br> Bandeng goreng = 5.500/ons <br> Bandeng saus spesial = 5.500/ons <br> Bandeng asam manis = 5.500/ons <br> Bandeng saus inggris = 5.500/ons <br> Bandeng steam = 5.500/ons <br> Bandeng acar kuning = 5.500/ons <br> Bandeng krupuk = 5.500/ons <br> Bandeng bumbu rujak = 5.500/ons <br> Bandeng pepes = 5.500/ons <br> Kerapu goreng = 27.500/ons <br> Kerapu goreng kecap = 27.500/ons <br> Kerapu bakar = 27.500/ons <br> Kerapu asam manis = 27.500/ons <br> Kerapu bawang putih = 27.500/ons <br> Kerapu saus kecap = 27.500/ons <br> Kerapu saus thailand = 27.500/ons <br> Kerapu steam = 27.500/ons <br> Kerapu pepes = 27.500/ons <br> Brokoli abalon = 50.000 <br> Brokoli salju = 32.000 <br> Taoge ca ikan asin = 25.000 <br> Brokoli ca ayam/udang/sapi = 32.000 <br> Brokoli ca bawang putih = 22.000 <br> Brokoli ca scallop = 36.000 <br> Baby buncis eby = 30.000 <br> Baby buncis goreng daging sapi = 30.000 <br> Baby kailan ca ayam/sapi/udang = 32.500 <br> baby ca bawang putih = 32.500 <br> kailan ca sapi = 32.500 <br> kailan ca ayam = 32.500 <br> kailan saus tiram = 32.500 <br> kailan ca bawang putih = 27.500 <br> kailan 2 rasa = 25.000 <br> Pwe ling ca bawang putih = 22.500 <br> Pwe ling ca ayam/sapi/udang = 32.500 <br> sawi wangi ca bawang putih/saus tiram = 22.500 <br> sawi wangi ca ayam/sapi/udang = 32.500 <br> jamur shimeji goreng bawang = 30.000 <br> jamur shimeji goreng garam = 25.000 <br> angsio jamur shimeji = 35.000"],
+            "context": [""]
+        },
+        {
+            "tag": "lokasi kampung laut",
+            "patterns": ["alamat kampung laut", "lokasi kampung laut"],
+            "responses": ["Puri Maerokoco Tawang Mas, Jl. Anjasmoro Raya, Tawangsari, Kec. Semarang Barat, Kota Semarang, Jawa Tengah 50144"],
+            "context": [""]
+        },
+        {
+            "tag": "jam operasional kampung laut",
+            "patterns": ["jam buka kampung laut", "jam operasional kampung laut"],
+            "responses": ["Setiap Hari mulai pukul 11.00-22.00 WIB"],
+            "context": [""]
+        },
+        {
+            "tag": "leker paimo",
+            "patterns": ["leker paimo"],
+            "responses": ["Deskripsi : Leker Paimo merupakan salah satu tempat kuliner makanan ringan yaitu lekker dengan berbagai macam lekker dengan isi yang bervariasi seperti cokelat, susu putih, keju, sosis, telur dan lain-lain. Menu : <br> Cokelat = 2.000 <br> Karamel = 2.000 <br> Susu putih = 2.000 <br> Cokelat kacang = 2.500 <br> Pisang cokelat = 2.500 <br> Pisang karamel = 2.500 <br> Pisang Cokelat Kacang = 2.500 <br> Pisang Cokelat Keju = 4.500 <br> Keju Manis = 4.500 <br>  Keju Cokelat = 4.500 <br> Keju Abon = 10.000 <br> Keju Jagung Manis = 10.000 <br> Telor = 5.000 <br> Telor sosis = 14.000 <br> Telor Tuna = 13.000 <br> Telor Keju = 13.000 <br> Telor jagung manis = 13.000 <br> Telor Sosis keju = 15.000 <br> telor sosis keju tuna = 18.000 <br> telor kornet mozarella = 30.000 <br> telor kornet sosis tuna mozarella = 35.000 <br> strawberry = 6.000 <br> blueberry = 5.000 <br> ovomaltine = 12.000 <br> nutella = 12.000 <br> ovomaltine keju = 15.000 <br> nutella keju = 15.000 <br> mayonaise keju pisang cokelat = 12.000 <br> sosis mozarella = 25.000 <br> Lokasi : Jalan Karang anyar no.37, brumbungan, kecamatan semarang tengah kota semarang, tepatnya didepan SMA Kolese Loyola <br> Jam Operasional : Senin - Sabtu mulai pukul 10.00-17.00 WIB"],
+            "context": [""]
+        },
+        {
+            "tag": "menu leker paimo",
+            "patterns": ["menu di leker paimo", "menu leker paimo"],
+            "responses": ["Menu : <br> Cokelat = 2.000 <br> Karamel = 2.000 <br> Susu putih = 2.000 <br> Cokelat kacang = 2.500 <br> Pisang cokelat = 2.500 <br> Pisang karamel = 2.500 <br> Pisang Cokelat Kacang = 2.500 <br> Pisang Cokelat Keju = 4.500 <br> Keju Manis = 4.500 <br>  Keju Cokelat = 4.500 <br> Keju Abon = 10.000 <br> Keju Jagung Manis = 10.000 <br> Telor = 5.000 <br> Telor sosis = 14.000 <br> Telor Tuna = 13.000 <br> Telor Keju = 13.000 <br> Telor jagung manis = 13.000 <br> Telor Sosis keju = 15.000 <br> telor sosis keju tuna = 18.000 <br> telor kornet mozarella = 30.000 <br> telor kornet sosis tuna mozarella = 35.000 <br> strawberry = 6.000 <br> blueberry = 5.000 <br> ovomaltine = 12.000 <br> nutella = 12.000 <br> ovomaltine keju = 15.000 <br> nutella keju = 15.000 <br> mayonaise keju pisang cokelat = 12.000 <br> sosis mozarella = 25.000 "],
+            "context": [""]
+        },
+        {
+            "tag": "lokasi leker paimo",
+            "patterns": ["alamat leker paimo", "lokasi leker paimo"],
+            "responses": ["Jalan Karang anyar no.37, brumbungan, kecamatan semarang tengah kota semarang, tepatnya didepan SMA Kolese Loyola"],
+            "context": [""]
+        },
+        {
+            "tag": "jam operasional leker paimo",
+            "patterns": ["jam buka leker paimo", "jam operasional leker paimo"],
+            "responses": ["Senin - Sabtu mulai pukul 10.00-17.00 WIB"],
+            "context": [""]
+        },
+        {
+            "tag": "bakmi jawa pak gareng",
+            "patterns": ["bakmi jawa pak gareng"],
+            "responses": ["Deskripsi : pecinta kuliner berbahan dasar mie harus mencicipi nikmatnya bakmi jawa pak gareng, karena mie ini diolah dengan kekhasan yang dimilikinya. Alat masak yang digunakan dalam memasak mie ini masih sama dari dulu hingga sekarang yaitu menggunakan anglo atau tungku dari tanah liat yang berbahan bakar arang sehingga menciptakan rasa yang berbeda dengan mie lainnya. <br> Menu : <br> sate = 6.750 <br> nasi goreng = 20.000 <br> bihun goreng = 20.000 <br> mie rebus = 20.000 <br> nasi ruwet = 20.000 <br> mie goreng = 20.000 <br> mie rebus = 20.000 <br> telor dadar/ceplok = 6.750 <br> air mineral = 7.000 <br> teh pucuk = 6.250 <br> Lokasi : Jalan Wotgandul dalam no.173, gabahan, semarang tengah. <br> Jam Operasional : Buka Setiap hari mulai pukul 11.00-21.00 WIB"],
+            "context": [""]
+        },
+        {
+            "tag": "menu bakmi jawa pak gareng",
+            "patterns": ["menu bakmi jawa pak gareng", "menu bakmi jawa pak gareng"],
+            "responses": ["sate = 6.750 <br> nasi goreng = 20.000 <br> bihun goreng = 20.000 <br> mie rebus = 20.000 <br> nasi ruwet = 20.000 <br> mie goreng = 20.000 <br> mie rebus = 20.000 <br> telor dadar/ceplok = 6.750 <br> air mineral = 7.000 <br> teh pucuk = 6.250"],
+            "context": [""]
+        },
+        {
+            "tag": "lokasi bakmi jawa pak gareng",
+            "patterns": ["alamat bakmi jawa pak gareng", "lokasi bakmi jawa pak gareng"],
+            "responses": ["Jalan Wotgandul dalam no.173, gabahan, semarang tengah."],
+            "context": [""]
+        },
+        {
+            "tag": "jam operasional bakmi jawa pak gareng",
+            "patterns": ["jam buka bakmi jawa pak gareng", "jam operasional bakmi jawa pak gareng"],
+            "responses": ["Buka Setiap hari mulai pukul 11.00-21.00 WIB"],
+            "context": [""]
+        },
+        {
+            "tag": "Lind's Ice Cream and Resto",
+            "patterns": ["Lind's Ice Cream and Resto"],
+            "responses": ["Deskripsi : Restoran dengan konsep interior instagramable ini bisa menjadi pilihan kamu untuk menikmati waktu di semarang. Restoran ini memiliki suasana yang aesthetic sehingga tidak membosankan serta alunan musik yang menenangkan. <br> Menu : <br> Banana Cookies = 35.000 <br> Banana Split = 35.000 <br> Bali ice = 27.500 <br> crispy carribean = 30.000 <br> crispy bedrock chocolate = 35.000 <br> crunchy praline mocca = 35.000 <br> chocolate vulcano =30.000 <br> cookies n cream = 30.000 <br> durian ice cream = 22.500 <br> double R special = 27.000 <br> double white special = 30.000 <br> espresso ice cream = 30.000 <br> fullmoon waffle = 37.500 <br> Flo = 35.000 <br> lind's Party = 40.000 <br> loving you = 30.000 <br> milo dinosaurs = 30.000 <br> low fat white = 27.000 <br> low fat dark = 27.000 <br> low fat single = 15.000 <br> mr clown = 30.000 <br> macedonia = 35.000 <br> croquette = 10.000 <br> resolles = 10.000 <br> french fries = 25.000 <br> potatoes skins spinner = 45.000 <br> lind's waffle = 20.000 <br> brownies cake = 30.000 <br> calamary crunch = 30.000 <br> Lokasi : Jl. Papandayan No. 99, Gajahmungkur, kecamatan Gajahmungkur, kota semarang, jawa tengah <br> Jam Operasional : Buka setiap hari mulai pukul 11.00-23.00 WIB"],
+            "context": [""]
+        },
+        {
+            "tag": "menu Lind's Ice Cream and Resto",
+            "patterns": ["menu di Lind's Ice Cream and Resto", "menu Lind's Ice Cream and Resto"],
+            "responses": ["Banana Cookies = 35.000 <br> Banana Split = 35.000 <br> Bali ice = 27.500 <br> crispy carribean = 30.000 <br> crispy bedrock chocolate = 35.000 <br> crunchy praline mocca = 35.000 <br> chocolate vulcano =30.000 <br> cookies n cream = 30.000 <br> durian ice cream = 22.500 <br> double R special = 27.000 <br> double white special = 30.000 <br> espresso ice cream = 30.000 <br> fullmoon waffle = 37.500 <br> Flo = 35.000 <br> lind's Party = 40.000 <br> loving you = 30.000 <br> milo dinosaurs = 30.000 <br> low fat white = 27.000 <br> low fat dark = 27.000 <br> low fat single = 15.000 <br> mr clown = 30.000 <br> macedonia = 35.000 <br> croquette = 10.000 <br> resolles = 10.000 <br> french fries = 25.000 <br> potatoes skins spinner = 45.000 <br> lind's waffle = 20.000 <br> brownies cake = 30.000 <br> calamary crunch = 30.000"],
+            "context": [""]
+        },
+        {
+            "tag": "lokasi Lind's Ice Cream and Resto",
+            "patterns": ["alamat Lind's Ice Cream and Resto", "lokasi Lind's Ice Cream and Resto"],
+            "responses": ["Jl. Papandayan No. 99, Gajahmungkur, kecamatan Gajahmungkur, kota semarang, jawa tengah"],
+            "context": [""]
+        },
+        {
+            "tag": "jam operasional Lind's Ice Cream and Resto",
+            "patterns": ["jam buka Lind's Ice Cream and Resto", "jam operasional Lind's Ice Cream and Resto"],
+            "responses": ["Buka Setiap hari mulai pukul 11.00-21.00 WIB"],
+            "context": [""]
+        },
+        {
+            "tag": "eling bening",
+            "patterns": ["eling bening"],
+            "responses": ["Deskripsi :Tempat kuliner kekinian yang didirikan pada tahun 2016 lalu, memiliki suasana alam yang sejuk serta pemandangan yang indah untuk kamu nikmati. Selain itu, resto ini menawarkan berbagai menu pilihan kuliner indonesia untuk kamu nikmati. <br> Menu : <br> Soto = 20.000 <br> Nasi Goreng Ayam = 30.000 <br> Nasi Goreng Terasi = 30.000 <br> Nasi Goreng Telor = 30.000 <br> Nasi Goreng Ikan Asin = 30.000 <br> Nasi Goreng Seafood = 35.000 <br> rawon = 25.000; bakso = 25.000 <br> mie/bihun bakso= 25.000 <br> ayam goreng = 30.000 <br> ayam bakar = 30.000 <br> empal goreng = 30.000 <br> pecel = 20.000 <br> pecel telur = 25.000 <br> pecel empal = 30.000 <br> pecel ayam = 35.000 <br> pecel udang = 35.000 <br> gado-gado = 25.000 <br> lontong = 5.000 <br> nasi putih = 5.000 <br> bakmi goreng ayam = 30.000 <br> bakmi goreng seafood = 35.000 <br> bihun goreng ayam = 35.000 <br> bihun goreng seafood = 35.000 <br> kwetiau goreng ayam = 35.000 <br> kwetiau goreng seafood = 35.000 <br> bihun bakso goreng = 35.000 <br> sup iga = 35.000 <br> sop empal = 35.000 <br> sop seafood = 45.000 <br> sop pindang bandeng = 35.000 <br> sop gurame asam pedas = 65.000 <br> Lokasi : Jalan Sarjono, Bawen, Semarang, Jawa Tengah <br> Jam Operasional : 08.00-18.00 WIB"],
+            "context": [""]
+        },
+        {
+            "tag": "menu eling bening",
+            "patterns": ["menu di eling bening", "menu eling bening"],
+            "responses": ["Soto = 20.000 <br> Nasi Goreng Ayam = 30.000 <br> Nasi Goreng Terasi = 30.000 <br> Nasi Goreng Telor = 30.000 <br> Nasi Goreng Ikan Asin = 30.000 <br> Nasi Goreng Seafood = 35.000 <br> rawon = 25.000; bakso = 25.000 <br> mie/bihun bakso= 25.000 <br> ayam goreng = 30.000 <br> ayam bakar = 30.000 <br> empal goreng = 30.000 <br> pecel = 20.000 <br> pecel telur = 25.000 <br> pecel empal = 30.000 <br> pecel ayam = 35.000 <br> pecel udang = 35.000 <br> gado-gado = 25.000 <br> lontong = 5.000 <br> nasi putih = 5.000 <br> bakmi goreng ayam = 30.000 <br> bakmi goreng seafood = 35.000 <br> bihun goreng ayam = 35.000 <br> bihun goreng seafood = 35.000 <br> kwetiau goreng ayam = 35.000 <br> kwetiau goreng seafood = 35.000 <br> bihun bakso goreng = 35.000 <br> sup iga = 35.000 <br> sop empal = 35.000 <br> sop seafood = 45.000 <br> sop pindang bandeng = 35.000 <br> sop gurame asam pedas = 65.000"],
+            "context": [""]
+        },
+        {
+            "tag": "lokasi eling bening",
+            "patterns": ["alamat eling bening", "lokasi eling bening"],
+            "responses": ["Jalan Sarjono, Bawen, Semarang, Jawa Tengah"],
+            "context": [""]
+        },
+        {
+            "tag": "jam operasional eling bening",
+            "patterns": ["jam buka eling bening", "jam operasional eling bening"],
+            "responses": ["08.00-18.00 WIB"],
+            "context": [""]
+        },
+        {
+            "tag": "pondok kopi unggul sidomukti",
+            "patterns": ["pondok kopi unggul sidomukti"],
+            "responses": ["Deskripsi : cafe ini berada di dataran tinggi semarang, dengan menawarkan suasana sejuk sehingga kamu dapat menghirup udara segar. Cafe ini menawarkan berbagai macam olahan kopi dan makanan ringan untuk kamu nikmati. <br> Menu : <br> piccolo = 22.000 <br> cappucino = 28.000 <br> coffee latte = 28.000 <br> coffee mocca = 28.000 <br> caramel machiato = 28.000 <br> espresso = 23.000; americano =25.000 <br> indonesian tubruk = 23.000 <br> french press = 25.000 <br> vietnam drip = 28.000 <br> v60 = 28.000 <br> aeropress = 30.000 <br> kopi jahe = 18.000 <br> kopi susu = 18.000 <br> kopi susu jahe = 20.000 <br> luwak liar arabika gayo = 50.000 <br> choco latte = 28.000 <br> red velvet - 28.000 <br> greentea latte = 30.000 <br> taro latte = 29.000 <br> aneka jus = 17.000-28.000 <br> teh = 10.000 <br> air mineral 10.000 <br> jeruk = 16.000 <br> wedang jahe = 16.000 <br> susu putih = 16.000 <br> susu coklat = 16.000 <br> susu jahe = 18.000 <br> lemon tea = 18.000 <br> coklat = 20.000 <br> Lokasi : Desa sidomukti, jalan goa jepang, jimbaran, bandungan, manggung, jimbaran, kec. bandungan, semarang, jawa tengah <br> Jam Operasional : 09.00-22.00 WIB"],
+            "context": [""]
+        },
+        {
+            "tag": "menu pondok kopi unggul sidomukti",
+            "patterns": ["menu di pondok kopi unggul sidomukti", "menu pondok kopi unggul sidomukti"],
+            "responses": ["Menu : <br> piccolo = 22.000 <br> cappucino = 28.000 <br> coffee latte = 28.000 <br> coffee mocca = 28.000 <br> caramel machiato = 28.000 <br> espresso = 23.000; americano =25.000 <br> indonesian tubruk = 23.000 <br> french press = 25.000 <br> vietnam drip = 28.000 <br> v60 = 28.000 <br> aeropress = 30.000 <br> kopi jahe = 18.000 <br> kopi susu = 18.000 <br> kopi susu jahe = 20.000 <br> luwak liar arabika gayo = 50.000 <br> choco latte = 28.000 <br> red velvet - 28.000 <br> greentea latte = 30.000 <br> taro latte = 29.000 <br> aneka jus = 17.000-28.000 <br> teh = 10.000 <br> air mineral 10.000 <br> jeruk = 16.000 <br> wedang jahe = 16.000 <br> susu putih = 16.000 <br> susu coklat = 16.000 <br> susu jahe = 18.000 <br> lemon tea = 18.000 <br> coklat = 20.000"],
+            "context": [""]
+        },
+        {
+            "tag": "lokasi pondok kopi unggul sidomukti",
+            "patterns": ["alamat pondok kopi unggul sidomukti", "lokasi pondok kopi unggul sidomukti"],
+            "responses": ["Desa sidomukti, jalan goa jepang, jimbaran, bandungan, manggung, jimbaran, kec. bandungan, semarang, jawa tengah"],
+            "context": [""]
+        },
+        {
+            "tag": "jam operasional pondok kopi unggul sidomukti",
+            "patterns": ["jam buka pondok kopi unggul sidomukti", "jam operasional pondok kopi unggul sidomukti"],
+            "responses": ["09.00-22.00 WIB"],
+            "context": [""]
+        },
+        {
+            "tag": "gubug mang engking",
+            "patterns": ["gubug mang engking"],
+            "responses": ["Deskripsi : resto bertemakan pondok-pondok kecil dengan olahan masakan sunda bisa jadi pilihan kamu untuk mengisi perut. Suasana yang sangat menenangkan serta cita rasa yang lezat mulai dari olahan sayur, ikan, seafood, serta minuman yang nikmat. <br> Menu : <br> Gurame bumbu cobek/bakar madu/bakar kecap = 80.000 gurame saos tiram/saos padang/asam manis = 80.000 <br> gurame sop = 80.000; gurame terbang = 85.000 <br> gurame fillet = 90.000<br> gurame fillet keju = 60.000 <br> gurame pesmol = 85.000 <br> cumi saos padang/saos tiram/goreng tepung/bakar madu = 55.000 <br> cumi asam manis = 50.000 <br> udang bakar madu/saos padang/saos tiram/goreng tepung = 92.500-100.000 <br> udang rebus/goreng/asam manis =87.500-95.000 <br> kepiting saos padang = 88.500-110.000 <br> kepiting lada hitam = 85.000-92.500 <br> kepiting rebus/goreng/asam manis/saos tiram = 85.000-106.000 <br> bandeng bumbu cobek/bakar madu/bakar kecap/goreng tepung = 65.000 <br> bandeng saos padang/saos tiram/asam manis = 65.000; karedok = 11.000 <br> pencok kacang panjang = 12.000 <br> tumis kangkung = 13.000 <br> sayur asem 7.000 <br> lalapan =3.000 <br> capcay polos = 25.000 <br> capcay ayam = 30.000 <br> capcay seafood  = 35.000 <br> toge teri = 30.000 <br> pakcoy = 30.000 <br> ayam goreng serundeng = 85.000 <br> ayam bakar kecap = 85.000 <br> ayam bakar madu = 85.000 <br> tahu goreng = 7.500 <br> tempe goreng = 7.500 <br> sop iga = 75.000 <br> iga bakar madu = 75.000 <br> patin pindang gunung = 65.000 <br> nasi putih = 5.500 <br> sambal terasi dadak/cobek/tomat/kecap = 4.000 <br> Lokasi : Jalan diponegoro no. 249, genuk barat ungaran kecamatan ungaran barat, semarang, jawa tengah <br> Jam Operasional : buka setiap hari mulai pukul 10.00-22.00 WIB"],
+            "context": [""]
+        },
+        {
+            "tag": "menu gubug mang engking",
+            "patterns": ["menu di gubug mang engking", "menu gubug mang engking"],
+            "responses": ["Menu : <br> Gurame bumbu cobek/bakar madu/bakar kecap = 80.000 gurame saos tiram/saos padang/asam manis = 80.000 <br> gurame sop = 80.000; gurame terbang = 85.000 <br> gurame fillet = 90.000<br> gurame fillet keju = 60.000 <br> gurame pesmol = 85.000 <br> cumi saos padang/saos tiram/goreng tepung/bakar madu = 55.000 <br> cumi asam manis = 50.000 <br> udang bakar madu/saos padang/saos tiram/goreng tepung = 92.500-100.000 <br> udang rebus/goreng/asam manis =87.500-95.000 <br> kepiting saos padang = 88.500-110.000 <br> kepiting lada hitam = 85.000-92.500 <br> kepiting rebus/goreng/asam manis/saos tiram = 85.000-106.000 <br> bandeng bumbu cobek/bakar madu/bakar kecap/goreng tepung = 65.000 <br> bandeng saos padang/saos tiram/asam manis = 65.000; karedok = 11.000 <br> pencok kacang panjang = 12.000 <br> tumis kangkung = 13.000 <br> sayur asem 7.000 <br> lalapan =3.000 <br> capcay polos = 25.000 <br> capcay ayam = 30.000 <br> capcay seafood  = 35.000 <br> toge teri = 30.000 <br> pakcoy = 30.000 <br> ayam goreng serundeng = 85.000 <br> ayam bakar kecap = 85.000 <br> ayam bakar madu = 85.000 <br> tahu goreng = 7.500 <br> tempe goreng = 7.500 <br> sop iga = 75.000 <br> iga bakar madu = 75.000 <br> patin pindang gunung = 65.000 <br> nasi putih = 5.500 <br> sambal terasi dadak/cobek/tomat/kecap = 4.000 "],
+            "context": [""]
+        },
+        {
+            "tag": "lokasi gubug mang engking",
+            "patterns": ["alamat gubug mang engking", "lokasi gubug mang engking"],
+            "responses": ["Jalan diponegoro no. 249, genuk barat ungaran kecamatan ungaran barat, semarang, jawa tengah"],
+            "context": [""]
+        },
+        {
+            "tag": "jam operasional gubug mang engking",
+            "patterns": ["jam buka gubug mang engking", "jam operasional gubug mang engking"],
+            "responses": ["buka setiap hari mulai pukul 10.00-22.00 WIB"],
+            "context": [""]
+        },
+        {
+            "tag": "tempat kuliner",
+            "patterns": ["tempat kuliner", "kuliner"],
+            "responses": ["List Tempat Kuliner : <br> 1. Soto Bangkong <br> 2. Tahu Gimbal Pak Eddy <br> 3. Tekodeko Koffiehuis <br> 4. Kampung Laut <br> 5. Leker Paimo <br> 6. Bakmi Jawa Pak Gareng <br> 7. Lind's Ice Cream and Resto <br> 8. Eling Bening <br> 9. Pondok Kopi Unggul Sidomukti <br> 10. Gubug Mang Engking"],
+            "context": [""]
+        },
+        {
+            "tag": "pusat oleh-oleh",
+            "patterns": ["tempat oleh-oleh", "pusat oleh-oleh","oleh-oleh"],
+            "responses": ["List Pusat Oleh-oleh : <br> 1. Oleh Oleh 52 Semarang <br> 2. Pusat Oleh-Oleh Khas Semarang Ayu <br> 3. Bandeng Juwana Elrina - Pandanaran <br> 4. Oleh oleh khas semarang <br> 5. Pusat Oleh-Oleh Djoe <br> 6. Pusat Oleh Oleh Khas Semarang <br> 7.  Pusat Oleh-oleh SEMAR <br> 8. Istana Brillian Oleh-oleh Makanan & Buah Tangan <br> 9. OLEH OLEH 52 MADUKORO SEMARANG <br> 10. Pusat Oleh Oleh Khas Semarang Wingko Babat Kapal Terbang"],
+            "context": [""]
+        },
+        {
+            "tag": "Oleh Oleh 52 Semarang",
+            "patterns": ["Oleh Oleh 52 Semarang", "oleh-oleh 52 semarang","52 Semarang"],
+            "responses": ["Alamat : Karangayu, Jl. Jenderal Sudirman No.134, Cabean, Kec. Semarang Barat, Kota Semarang, Jawa Tengah <br> Buka jam : 08.00 <br> Tutup jam : 21.00 <br> No telp : (024) 7617762"],
+            "context": [""]
+        },
+        {
+            "tag": "Pusat Oleh-Oleh Khas Semarang Ayu",
+            "patterns": ["Pusat Oleh-Oleh Khas Semarang Ayu", "Semarang Ayu","Pusat Oleh Oleh Khas Semarang Ayu"],
+            "responses": ["Alamat : Jl. Perintis Kemerdekaan No.25, Pudakpayung, Kec. Banyumanik, Kota Semarang, Jawa Tengah <br> Buka jam : 09.00 <br> Tutup jam : 21.00 <br> No telp : 0819-1445-9649"],
+            "context": [""]
+        },
+        {
+            "tag": "Bandeng Juwana Elrina - Pandanaran",
+            "patterns": ["Bandeng Juwana Elrina - Pandanaran", "Bandeng Jawara","Bandeng Jawara Elrina","Bandeng Jawara Elrine Pandanaran"],
+            "responses": ["Alamat : Jl. Pandanaran No.57, Randusari, Kec. Semarang Sel., Kota Semarang, Jawa Tengah <br> Buka jam : 07.00 <br> Tutup jam : 20.00 <br> No telp : (024) 8311488"],
+            "context": [""]
+        },
+        {
+            "tag": "Oleh oleh khas semarang",
+            "patterns": ["Oleh oleh khas semarang"],
+            "responses": ["Alamat : XCJH+7G8, Jl. Jangli Karanganyar Legok, Karanganyar Gn., Kec. Candisari, Kota Semarang, Jawa Tengah <br> Buka jam : 24 jam <br> No telp : 0812-2888-22232"],
+            "context": [""]
+        },
+        {
+            "tag": "Pusat Oleh-Oleh Djoe",
+            "patterns": ["Pusat Oleh-Oleh Djoe","oleh oleh djoe"],
+            "responses": ["Alamat : Jl. Pandanaran No.51, Randusari, Kec. Semarang Sel., Kota Semarang, Jawa Tengah <br> Buka jam : 06.00 <br> Tutup jam : 22.00 <br> No telp : (024) 8318663"],
+            "context": [""]
+        },
+        {
+            "tag": "Pusat Oleh Oleh Khas Semarang",
+            "patterns": ["Pusat Oleh Oleh Khas Semarang","oleh oleh khas semarang","oleh-oleh khas semarang"],
+            "responses": ["Alamat : Jl. Walisongo No.8, Karanganyar, Kec. Tugu, Kota Semarang, Jawa Tengah <br> Buka jam : 24 jam <br> No telp :-"],
+            "context": [""]
+        },
+        {
+            "tag": "Pusat Oleh-oleh SEMAR",
+            "patterns": ["Pusat Oleh-oleh SEMAR","oleh oleh semar","oleh-oleh semar"],
+            "responses": ["Alamat : Kedungmundu, Kec. Tembalang, Kota Semarang, Jawa Tengah <br> Buka jam : 07.00 <br> Tutup jam : 22.00 <br> No telp : 0856-4843-9883"],
+            "context": [""]
+        },
+        {
+            "tag": "Istana Brillian Oleh-oleh Makanan & Buah Tangan",
+            "patterns": ["Istana Brillian Oleh-oleh Makanan & Buah Tangan","oleh oleh istana brillian","buah tangan istana brillian"],
+            "responses": ["Alamat : 2C5F+797, Jl. Simpang Lima, Pleburan, Kec. Semarang Sel., Kota Semarang, Jawa Tengah <br> Buka jam : 08.00 <br> Tutup jam : 21.00 <br> No telp : (024) 8456456"],
+            "context": [""]
+        },
+        {
+            "tag": "OLEH OLEH 52 MADUKORO SEMARANG",
+            "patterns": ["Oleh oleh 52 madukoro semarang","oleh oleh 52 madukoro","52 madukoro","madukoro semarang","52 madukoro semarang"],
+            "responses": ["Alamat : Jl. Madukoro Raya No.3, Krobokan, Kec. Semarang Barat, Kota Semarang, Jawa Tengah <br> Buka jam : 09.00 <br> Tutup jam : 20.00 <br> No telp : (024) 7602094"],
+            "context": [""]
+        },
+        {
+            "tag": "Pusat Oleh Oleh Khas Semarang Wingko Babat Kapal Terbang",
+            "patterns": ["Pusat Oleh Oleh Khas Semarang Wingko Babat Kapal Terbang","wingko babat kapal terbang","oleh oleh khas semarang wingko babat"],
+            "responses": ["Alamat : Jl. Lamper Tengah Gg. II No.570, Lamper Tengah, Kec. Semarang Sel., Kota Semarang, Jawa Tengah <br> Buka jam : 06.00 <br> Tutup jam : 21.00 <br> No telp : 0821-1172-8741"],
+            "context": [""]
+        }
+
+        
+
+
+    ]
+}
